@@ -4,6 +4,7 @@ plugins {
     id "com.jfrog.bintray" version "1.2"
 }
 
+apply from: 'https://build.hubteam.com/gradle-base/base.gradle'
 apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'maven-publish'
