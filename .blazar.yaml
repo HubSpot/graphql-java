@@ -1,9 +1,6 @@
-buildpack:
-  host: git.hubteam.com
-  organization: HubSpot
-  repository: Blazar-Buildpack-Gradle
-  branch: master
+env:
+  SKIP_VERSION_OVERRIDE: true
 
 stepActivation:
-  publish:
+  notify:
     branches: [hubspot]
