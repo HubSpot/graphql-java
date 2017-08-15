@@ -3,3 +3,7 @@ buildpack:
   organization: HubSpot
   repository: Blazar-Buildpack-Gradle
   branch: master
+
+stepActivation:
+  publish:
+    branches: [hubspot]
