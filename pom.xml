@@ -13,6 +13,9 @@
   <version>4.0-hubspot-SNAPSHOT</version>
 
   <properties>
+    <basepom.test.reuse-vm>true</basepom.test.reuse-vm>
+    <basepom.test.fork-count>1</basepom.test.fork-count>
+
     <basepom.check.skip-basic>true</basepom.check.skip-basic>
     <basepom.check.skip-extended>true</basepom.check.skip-extended>
   </properties>
