@@ -1,7 +1,0 @@
-env:
-  SKIP_VERSION_OVERRIDE: true
-  MAVEN_ARGS: -DskipTests
-
-stepActivation:
-  notify:
-    branches: [hubspot]
