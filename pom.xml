@@ -85,6 +85,12 @@
       <version>3.0.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>java-dataloader</artifactId>
+      <version>1.0.1</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
